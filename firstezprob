@@ -1,0 +1,24 @@
+//This problem is the easiest one in codeforce (even my friend who’ve just learned cpp in 30 mins can do it), but since it took me 3 takes to be accepted, it will on this list;
+// Problem: https://codeforces.com/problemset/problem/4/A 
+//Basically the problem goes like this:
+
+// You have a number of kilos of a watermelon xd, 
+// and you have to divine a watermelon into 2 parts, 
+// but each part has even number of kilos. Your output could be YES if you can divine it and NO for otherwise.
+
+// solution
+#include <bits/stdc++.h>
+using namespace std;
+int main () {
+    int a;
+    cin >> a;
+    if (a > 2 and a <= 100) {
+        if (a % 2 == 0)
+            cout << "YES";
+        else cout << "NO";
+    }
+    else cout << "NO";
+return 0;
+}
+
+// ez as that!
